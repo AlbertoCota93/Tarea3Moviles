@@ -68,4 +68,16 @@ public class ItemProduct  {
         this.phone =phone;
         this.description =description;
     }
+
+    @Override
+    public String toString() {
+        return "ItemProduct{" +
+                ", title='" + title + '\'' +
+                ", store='" + store + '\'' +
+                ", location='" + location + '\'' +
+                ", phone='" + phone + '\'' +
+                ", description='" + description + '\'' +
+                "image=" + image +
+                '}';
+    }
 }
